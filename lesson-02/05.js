@@ -4,6 +4,7 @@ let passport = {
 };
 
 let copy = { ...passport };
+copy.name = "Ivan";
 
 console.log(passport);
 console.log(copy);

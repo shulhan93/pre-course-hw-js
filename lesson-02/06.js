@@ -8,7 +8,7 @@ let passportWithAddress = {
 };
 
 let copyPassportWithAddress = JSON.parse(JSON.stringify(passportWithAddress));
-copy.address.city = "Bobryisk";
+copyPassportWithAddress.address.city = "Bobryisk";
 
 console.log(passportWithAddress);
 console.log(copyPassportWithAddress);

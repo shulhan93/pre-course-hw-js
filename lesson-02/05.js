@@ -4,3 +4,6 @@ let passport = {
 };
 
 let copy = { ...passport };
+
+console.log(passport);
+console.log(copy);
